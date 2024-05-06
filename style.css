@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+</style> 
+
 * {
-    margin: 0%;
+    margin: 10% 15%;
     padding: 0%;
 }
 
@@ -12,23 +15,70 @@ body{
 
 .destaque-subtitulo {
     color: #20DC49;
+    font-weight: medium; 
 }
 
-img{
-    img {
-        width: 1494px;
-        height: 1072px;
-        object-fit: contain;
-      }
-}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .LP-Chatlabs{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    margin-top: 206px;
+    gap: 24px; 
 }
 
 div{
-    border: 3px solid red;
     background: url(Mockup\ 1.png);
     background-size: contain;
-    }
+}
+
+.LP-Chatlabs__conteudo{
+    width: 1255px; 
+    gap: 24px; 
+
+}
+
+.LP-Chatlabs__titulo {
+    font-size: 90px;
+    font-family: coolvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin: 6%; 
+    margin-bottom: 30px;
+}
+
+.LP-Chatlabs__subtitulo {
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    margin: 12%;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    line-height: 140%;
+}
+
+.veja__demonstração {
+    justify-content: center;
+    background-color: #20DC49;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #242424;
+    width: 195px;
+    height: 47px;
+    border-radius: 40px;
+    padding: 8px 28px;
+    text-decoration: none;
+}
+
+
+    
