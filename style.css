@@ -9,8 +9,11 @@
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: #161616; 
+    background-color: #ffffff;
     color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .destaque-subtitulo {
@@ -26,23 +29,35 @@ img {
   }
 
 .LP-Chatlabs{
+    background-color: #161616;
     display: flex;
     align-items: center;
+    align-self: center;
     flex-direction: column;
     justify-content: center; 
     text-align: center;
-    margin-top: 206px;
     gap: 24px; 
+
 }
 
-div{
-    background: url(Mockup\ 1.png);
+.mockup-1 {
+    justify-content: center;
+    width: 1230px;
+    height: 900px;
     background-size: contain;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    gap: 60px; 
+    margin-top: -350px;
 }
 
 .LP-Chatlabs__conteudo{
     width: 1255px; 
     gap: 24px; 
+    height: 800px; 
+
+    
 
 }
 
@@ -78,6 +93,27 @@ div{
     border-radius: 40px;
     padding: 8px 28px;
     text-decoration: none;
+}
+
+.efeito-blur-1 {
+    filter: blur(8rem);
+    background-color: rgba(32, 220, 73, 100%);
+    backdrop-filter: 300px; 
+    border-radius: 150%;
+    opacity: 10;
+    position: relative;
+    position: absolute;
+    top: 109px;
+    left: -304px;
+}
+
+.sobreposicao-1-mockup-blur {
+    background-color: #ffffff;
+}
+
+.LP-Chatlabs-Container{
+    width: 100%;
+
 }
 
 
