@@ -1,0 +1,520 @@
+@font-face {
+  font-family: "coolvetica";
+  src: url("webfontkit-20240515-171732/coolvetica_compressed_hv.woff");
+  src: url("webfontkit-20240515-171732/coolvetica_condensed_rg.woff") format("woff");
+  src: url("webfontkit-20240515-171732/coolvetica_compressed_hv.woff");
+  src: url("webfontkit-20240515-171732/coolvetica_condensed_rg.woff") format("woff"),
+  }
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais para mobile first */
+body {
+  height: 100vh;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+header {
+  padding: 20px 10px;
+  background-color: #161616;
+  border-bottom: 0.1rem solid #20DC49;
+}
+
+.cabecalho__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho_menu_link, .veja_demonstração_cabecalho {
+  font-size: 14px;
+}
+
+.veja_demonstração_cabecalho {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #20DC49;
+  color: #242424;
+  border-radius: 40px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.anchor__childrens > a {
+  margin-left: 2rem;
+}
+
+
+/* Seção de conteúdo principal */
+.LP-Chatlabs__conteudo {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #161616;
+  justify-content: center;
+}
+
+.LP-Chatlabs__titulo {
+  font-family: "coolvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 2%;
+  font-size: 36px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.LP-Chatlabs__subtitulo {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 20px 0;
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 400;
+}
+
+.veja__demonstração {
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  background-color: #20DC49;
+  color: #242424;
+  border-radius: 40px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+/* Estilos para o mockup */
+.sobreposicao-1-mockup-blur {
+  position: relative;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.Mockup-1 {
+  width: 100%;
+}
+
+.efeito-blur {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(32, 220, 73, 0.5);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+/* Seção de clientes */
+.client__container__elements {
+  padding: 40px 10px;
+}
+
+.Nossos_clientes_titulo {
+  font-family: "coolvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #161616;
+  text-align: center;
+}
+
+.rectangle {
+  width: 100%;
+  height: 160px;
+  background-color: #E3FDE8;
+  margin: 20px 0;
+}
+
+/* Seção de ajuda */
+.chatlabs__help__container {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.Como_pode_ajudar_titulo {
+  font-family: "coolvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #161616;
+  margin-bottom: 10px;
+}
+
+.Como_pode_ajudar_subtitulo {
+  font-size: 16px;
+  color: #161616;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+}
+
+.video__container {
+  margin: 20px 0;
+}
+
+.empty__green_video__container {
+  width: 100%;
+  max-width: 100%;
+  background-color: rgb(103, 212, 130);
+  height: 200px;
+  border-radius: 25px;
+}
+
+.video__text {
+  font-size: 18px;
+  color: #fff;
+  padding: 80px 10px;
+}
+
+/* Seção de vantagens */
+.img__vtgs__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_vantagens {
+  width: 100%;
+  height: auto;
+}
+
+.destaque-subtitulo {
+  color: #20DC49;
+  font-weight: bold; 
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Seção de opinião do cliente 1 */
+.client__mockup__container {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.client__mockup__balao__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mockup_client_1 {
+  width: 100%;
+  height: auto;
+}
+
+/* Seção lorem ipsum */
+.lorem__ipsum__container {
+  background-color: #161616;
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.Lorem__ipsum__titulo {
+  font-family: "coolvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #20DC49;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.Lorem__ipsum__subtitulo {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+
+.lorem__ipsum__video__container {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.lorem__ipsum__empty__green_video__container {
+  width: 100%;
+  max-width: 100%;
+  background-color: rgb(103, 212, 130);
+  height: 200px;
+  border-radius: 25px;
+}
+
+.video__text__2 {
+  font-size: 18px;
+  color: #fff;
+  padding: 80px 10px;
+}
+
+.Saiba_mais_sobre {
+  color: #20DC49;
+  border-radius: 40px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+/* Seção de opinião do cliente 2 */
+.client__mockup__container__2 {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.client__mockup__balao__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mockup_client_2 {
+  width: 100%;
+  height: auto;
+}
+
+/* Seção de planos e preços */
+.chatlabs__planos__container, .chatlabs__planos__texts__container {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.Planos_titulo {
+  font-family: "Coolvetica", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #161616;
+  margin-bottom: 10px;
+}
+
+.Planos_subtitulo {
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #161616;
+  margin-bottom: 20px;
+}
+
+/* Seção de planos e preços */
+.Precos__container__tabelas {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.Tabela__1__precos__texts {
+  display: flex;
+  display: ;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff; 
+  border-radius: 50px;
+  box-shadow: ;
+}
+
+.Plano__basico__1 {
+  order: 1;
+  font-family: "coolvetica", sans-serif; 
+  color: #161616;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 2%;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.Plano__basico__1__preco {
+  order: 2;
+  color: #161616;
+  font-size: 30px;
+  line-height: 1.4;
+  margin: 20px 0;
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+}
+
+.destaque_valor_99 {
+  order: 2;
+  font-size: 50px;
+  color: #20DC49;
+  font-weight: bold; 
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+}
+
+.destaque_valor_menor__90 {
+  order: 2;
+  font-size: 30px;
+  color: #20DC49;
+  font-weight: bold; 
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+}
+
+.Plano__basico__mensal__1 {
+  order: 3;
+  font-family: "coolvetica", sans-serif; 
+  color: #BBBBBB;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 2%;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.Plano__basico__mensal__1__intro {
+  order: 4;
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #161616;
+}
+
+.Botao__Contratar__plano__1 {
+  order: 5;
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+  background-color: #20DC49;
+  color: #242424;
+  border-radius: 40px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+  width: 24%;
+}
+
+.check__funcionalidades__plano__basico__1 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  order: 6;
+  align-items: center;
+}
+
+.icone_check_branco_verde_1{
+  display: flex; 
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.funcionalidade_1_usuário_plano_1{
+  display: flex;
+  color: #161616;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Media queries para telas maiores */
+@media (min-width: 768px) {
+  .LP-Chatlabs__conteudo__texts {
+    max-width: 900px;
+    margin-top: 10vh;
+    text-align: center;
+    align-items: center;
+  }
+
+  .LP-Chatlabs__titulo {
+    font-family: "coolvetica", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .LP-Chatlabs__subtitulo {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .empty__green_video__container {
+    height: 400px;
+  }
+
+  .lorem__ipsum__empty__green_video__container{
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .LP-Chatlabs__conteudo__texts {
+    margin-top: 10vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .LP-Chatlabs__titulo {
+    font-family: "coolvetica", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .LP-Chatlabs__subtitulo {
+    font-family: "Inter", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .empty__green_video__container {
+    height: 600px;
+  }
+
+  .lorem__ipsum__empty__green_video__container {
+    height: 600px;
+  }
+}

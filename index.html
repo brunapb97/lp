@@ -4,31 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LP Chatlabs</title>
-    <link rel="stylesheet" href="style.css"
-</head> 
+    <link rel="stylesheet" href="new-css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
 
 <body>
-    <header></header>
-    <main class="LP-Chatlabs">
-        <section class="LP-Chatlabs__conteudo"> 
-            <h1 class="LP-Chatlabs__titulo">Atendimento integrado, resultados multiplicados </h1>
-            <h2 class="LP-Chatlabs__subtitulo"> Chega de plataformas complexas, facilitamos a integração dos seus canais de comunicação e vendas de forma <strong class="destaque-subtitulo">simples e rápida</strong></h2>
-            <a class="veja__demonstração" href="https://mkt.chatlabs.com.br/">Veja Demonstração</a> 
-        </section>
-        <div class="sobreposicao-1-mockup-blur" >
-        <img class="mockup-1" src="Mockup 1.png" alt="tutorial de como usar o Chatlabs">
-         <svg class="efeito-blur-1"  height="388" width="388" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <filter id="f2" x="0" y="0" xmlns="http://www.w3.org/2000/svg">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="350" />
-              </filter>
-            </defs>
-            <rect width="388" height="388" fill="green" filter="url(#f2)" />
+    <header class="cabecalho" >
+      <nav class="cabecalho__menu" > 
+        <svg class="logo_chatlabs_branco_1"width="166" height="24" viewBox="0 0 166 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1466 20.1927H18.5117C17.9383 24.8526 14.1295 28 9.25585 28C3.76787 28 0 24.362 0 17.1679C0 9.97372 3.76787 6.82628 9.41967 6.82628C14.6619 6.82628 18.225 9.81022 18.5527 14.5518H13.1875C12.9009 12.4672 11.3855 11.2409 9.37872 11.2409C7.12619 11.2409 5.28321 12.6715 5.28321 17.0453C5.28321 21.419 7.12619 23.5445 9.2149 23.5445C11.3036 23.5445 12.9418 22.3591 13.1466 20.1927Z" fill="white"/>
+          <path d="M38.3522 27.4686H32.9871V15.0015C32.9871 11.9766 31.9632 11.0365 29.5469 11.0365C26.8848 11.0365 25.4104 13.2438 25.4104 15.9416V27.4686H20.0862V0H25.4104V9.97372C26.1885 8.17518 28.6459 6.82628 31.3489 6.82628C35.4854 6.82628 38.3522 9.23796 38.3522 13.2438V27.4686Z" fill="white"/>
+          <path d="M52.8884 19.8248L52.9293 17.6175C52.3969 18.1489 51.455 18.435 49.4891 18.8029C46.4584 19.3752 45.4755 20.2336 45.4755 21.9504C45.4755 23.4628 46.3765 24.1985 48.0557 24.1985C50.7997 24.1985 52.8474 22.1956 52.8884 19.8248ZM58.2535 27.4686H53.2979C53.1341 26.9781 53.0113 26.2832 52.9703 25.6701C51.7007 27.0599 49.571 28 46.868 28C42.281 28 40.1514 25.7518 40.1514 22.4818C40.1514 16.6774 44.0421 16.0234 49.4072 15.2876C52.0693 14.9197 52.8065 14.3883 52.8065 12.9985C52.8065 11.6905 51.4959 10.9139 49.4072 10.9139C46.9909 10.9139 46.0079 12.0993 45.7622 13.8978H40.8066C40.8885 9.72847 43.182 6.82628 49.6529 6.82628C56.0419 6.82628 58.2535 9.68759 58.2535 14.7562V27.4686Z" fill="white"/>
+          <path d="M72.0279 19.4569V14.2248H76.9834V19.9474C76.9834 24.1985 74.5261 28 68.8334 28C62.9358 28 60.6014 24.2394 60.6014 19.9066V1.92117H65.8436V7.35767H76.9834V11.1182H65.8436V19.3752C65.8436 21.9095 66.7447 23.381 68.9153 23.381C71.0449 23.381 72.0279 21.9504 72.0279 19.4569Z" fill="white"/>
+          <path d="M84.4833 27.4686H79.1592V0H84.4833V27.4686Z" fill="white"/>
+          <path d="M98.9229 19.8248L98.9638 17.6175C98.4314 18.1489 97.4894 18.435 95.5236 18.8029C92.4929 19.3752 91.51 20.2336 91.51 21.9504C91.51 23.4628 92.411 24.1985 94.0902 24.1985C96.8342 24.1985 98.8819 22.1956 98.9229 19.8248ZM104.288 27.4686H99.3324C99.1686 26.9781 99.0457 26.2832 99.0048 25.6701C97.7352 27.0599 95.6055 28 92.9025 28C88.3155 28 86.1858 25.7518 86.1858 22.4818C86.1858 16.6774 90.0766 16.0234 95.4417 15.2876C98.1038 14.9197 98.841 14.3883 98.841 12.9985C98.841 11.6905 97.5304 10.9139 95.4417 10.9139C93.0253 10.9139 92.0424 12.0993 91.7967 13.8978H86.8411C86.923 9.72847 89.2165 6.82628 95.6874 6.82628C102.076 6.82628 104.288 9.68759 104.288 14.7562V27.4686Z" fill="white"/>
+          <path d="M116.178 23.6672C118.84 23.6672 120.724 21.1737 120.724 17.5766C120.724 13.4482 119.25 11.3635 116.137 11.3635C113.189 11.3635 111.673 13.5299 111.673 17.9037C111.673 21.2964 113.639 23.6672 116.178 23.6672ZM111.755 27.4686H106.636V0H111.878V9.97372C113.393 7.84818 115.359 6.82628 117.858 6.82628C123.059 6.82628 126.131 11.1182 126.131 17.2088C126.131 23.9942 122.485 28 117.407 28C114.95 28 113.066 27.0599 111.796 25.0161L111.755 27.4686Z" fill="white"/>
+          <path d="M145.355 13.4482H140.236C139.949 11.4861 138.884 10.7912 136.468 10.7912C134.461 10.7912 133.315 11.2818 133.315 12.4672C133.315 13.6526 134.42 14.1431 136.591 14.7562C138.884 15.4102 141.055 15.8599 142.611 16.473C144.741 17.3314 145.929 18.7212 145.929 21.3372C145.929 25.5066 142.857 28 137.123 28C130.939 28 127.499 25.0978 127.417 21.0102H132.905C132.905 22.8905 134.502 23.9942 137.082 23.9942C138.966 23.9942 140.646 23.4219 140.646 21.9095C140.646 20.4788 139.13 20.0292 137.41 19.6204C134.011 18.8029 132.127 18.2307 130.693 17.3314C128.81 16.146 128.154 14.5927 128.154 12.7942C128.154 9.40146 130.489 6.82628 136.632 6.82628C142.448 6.82628 145.069 9.11533 145.355 13.4482Z" fill="white"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M155.101 11.7548V18.5983C155.101 18.9341 155.502 19.1086 155.749 18.8803L164.961 9.68741C165.288 9.38474 164.926 8.87629 164.544 9.05249C164.52 9.06312 164.499 9.07664 164.478 9.0917L157.772 14.0874C157.745 14.1078 157.715 14.1252 157.683 14.1371C157.595 14.1695 157.5 14.1686 157.415 14.1375C157.33 14.1064 157.266 14.0473 157.221 13.9717L155.811 11.5549C155.778 11.4988 155.733 11.4506 155.677 11.4183C155.437 11.281 155.101 11.4439 155.101 11.7547V11.7548Z" fill="#20DC49"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M148.929 11.7548V18.5983C148.929 18.9341 149.329 19.1086 149.576 18.8803L158.788 9.68741C159.115 9.38474 158.754 8.87629 158.371 9.05249C158.348 9.06312 158.326 9.07664 158.306 9.0917L151.599 14.0874C151.572 14.1078 151.542 14.1252 151.51 14.1371C151.423 14.1695 151.328 14.1686 151.243 14.1375C151.158 14.1064 151.093 14.0473 151.049 13.9717L149.638 11.5549C149.606 11.4988 149.56 11.4506 149.504 11.4183C149.264 11.281 148.929 11.4439 148.929 11.7547V11.7548Z" fill="#20DC49"/>
           </svg>
+        
+          <div class="anchor__childrens">
+            <a class="cabecalho_menu_link" > Recursos</a>
+            <a class="cabecalho_menu_link" > Preços</a>
+            <a class="cabecalho_menu_link" > Clientes</a>
+          </div>
+        <a class="veja_demonstração_cabecalho" href="https://mkt.chatlabs.com.br/">Veja Demonstração</a>
+      </nav>
+    </header>
+    <section class="LP-Chatlabs__conteudo"> 
+      <div class="LP-Chatlabs__conteudo__texts">
+          <h1 class="LP-Chatlabs__titulo">Atendimento integrado, <br>resultados multiplicados</h1>
+          <h2 class="LP-Chatlabs__subtitulo">Chega de plataformas complexas, facilitamos a integração dos <br> seus canais de comunicação e vendas de forma <strong class="destaque-subtitulo">simples e rápida</strong></h2>
+          <a class="veja__demonstração" href="https://mkt.chatlabs.com.br/">Veja Demonstração</a>
+      </div>
+      <div class="sobreposicao-1-mockup-blur">
+          <img class="Mockup-1" src="mockup-main.svg" alt="tutorial de como usar o Chatlabs" />
+          <div class="efeito-blur"></div>
+      </div>
+  </section>
+
+      <div class="client__container__elements">
+        <h2 class="Nossos_clientes_titulo"> Nossos Clientes </h2> 
+        <div class="rectangle"></div>
         </div>
 
-        
-    </main>
+    <section class="chatlabs__help__container">
+     <div class="texts__container">
+      <h1 class="Como_pode_ajudar_titulo"> Como o Chatlabs <br> pode te ajudar? </h1>
+      <h2 class="Como_pode_ajudar_subtitulo"> Confira alguns dos benefícios que sua empresa <br> pode aproveitar com nossa solução </h2>
+     </div>
+
+     <div class="video__container">
+      <div class="empty__green_video__container">
+        <h1 class="video__text">Here should put the site video</h1>
+      </div>
+     </div>
+     <div class="img__vtgs__container">
+      <img class="img_vantagens" src="mockup-products.png" alt="vantagens Chatlabs"> 
+    </div>
+    </section>
+
+    <section class="client__mockup__container">
+      <div class="client__mockup__balao__1">
+        <img class="mockup_client_1" src="mockup-client.png" alt="opiniao do cliente">  
+      </div>
+    </section>
+
+    <section class="lorem__ipsum__container" class="l-section l-section--slanted"> 
+      <div class="texts__container__lorem__ipsum" class= "l-section__content"> 
+        <h1 class="Lorem__ipsum__titulo"> Lorem ipsum dolor sit amet consectetur. <br>Consectetur. </h1>
+        <h2 class="Lorem__ipsum__subtitulo"> Lorem ipsum dolor sit amet consectetur. Nec pellentesque luctus sit. <br> Praesent tortor metus vel non aliquam non viverra sit arcu.<br>Lorem ipsum dolor sit amet consectetur.</h2>
+        <a class="Saiba_mais_sobre" href="https://mkt.chatlabs.com.br/"> Saiba mais sobre </a>  
+       </div>
+
+       <div class="lorem__ipsum__video__container">
+        <div class="lorem__ipsum__empty__green_video__container"> 
+          <h1 class="video__text__2">Here should put the site video</h1>
+        </div>
+       </div>
+    </section>
+
+    <section class="client__mockup__container__2">
+      <div class="client__mockup__balao__2">
+        <img class="mockup_client_2" src="mockup-client-black.png" alt="opiniao do cliente">  
+      </div>
+    </section>
+
+    <section class="chatlabs__planos__container">
+      <div class="chatlabs__planos__texts__container">
+       <h1 class="Planos_titulo"> Planos simples e flexíveis</h1>
+       <h2 class="Planos_subtitulo"> Lorem ipsum dolor sit amet consectetur. Nec pellentesque luctus sit. <br> Praesent tortor metus vel non aliquam non viverra sit arcu.<br>Lorem ipsum dolor sit amet consectetur.</h2>
+      </div>
+    </section> 
+
+    <section class="Precos__container__tabelas"> 
+      <div class="Tabela__1__precos__texts">
+          <h1 class="Plano__basico__1">Básico</h1>
+          <h2 class="Plano__basico__1__preco"> R$ <strong class="destaque_valor_99">99,</strong> <strong class="destaque_valor_menor__90" >90</strong> </h2>
+          <h3 class="Plano__basico__mensal__1">Mensal</h3>
+          <h4 class="Plano__basico__mensal__1__intro"> Lorem ipsum dolor sit amet <br> consectetur. Nec pellentesque luctus.</h4>
+          <a class="Botao__Contratar__plano__1" href="https://mkt.chatlabs.com.br/">Contratar</a>
+      </div>
+
+      <div class="check__funcionalidades__plano__basico__1"> 
+        <img class="icone_check_branco_verde_1" src="check-branco-verde-1.svg" alt="funcionalidades do Chatlabs"> 
+        <h2 class="funcionalidade_1_usuário_plano_1" >1 usuário </h2>
+      </div>
+
+    </section> 
+    
     <footer></footer>
 </body>
 </html>
