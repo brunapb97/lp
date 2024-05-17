@@ -329,87 +329,1460 @@ header {
 .Precos__container__tabelas {
   padding: 20px 10px;
   display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
+  column-gap: 30px;
+  row-gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .Tabela__1__precos__texts {
   display: flex;
-  display: ;
   flex-direction: column;
   justify-content: flex-start;
   background-color: #ffffff; 
   border-radius: 50px;
-  box-shadow: ;
+  box-shadow: 10px 10px 10px 10px lightgray; 
+  border-radius: 40px;
+  padding: 30px;
+  column-gap: 30px;
 }
 
-.Plano__basico__1 {
-  order: 1;
-  font-family: "coolvetica", sans-serif; 
+  .Plano__basico__1 {
+    font-family: "coolvetica", sans-serif; 
+    color: #161616;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 2%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+  }
+
+  .Plano__basico__1__preco {
+    color: #161616;
+    font-size: 30px;
+    line-height: 1.4;
+    margin: 20px 0;
+    font-family: "Inter", sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .destaque_valor_99 {
+    font-size: 50px;
+    color: #20DC49;
+    font-weight: bold; 
+    font-family: "Inter", sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .destaque_valor_menor__90 {
+    font-size: 30px;
+    color: #20DC49;
+    font-weight: bold; 
+    font-family: "Inter", sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .Plano__basico__mensal__1 {
+    font-family: "coolvetica", sans-serif; 
+    color: #BBBBBB;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 2%;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .Plano__basico__mensal__1__intro {
+    font-family: "Inter", sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+  }
+
+  .Botao__Contratar__plano__1 {
+    font-family: "Inter", sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    background-color: #20DC49;
+    color: #242424;
+    border-radius: 40px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+.check__funcionalidades__plano__basico__1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column; 
+  padding: 20px 0px;
+
+}
+
+.check_funcionalidade_1 {
+  display: flex;
   color: #161616;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 2%;
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 0;
 }
 
-.Plano__basico__1__preco {
-  order: 2;
+  .icone_check_branco_verde_1{
+    display: flex; 
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .funcionalidade_1_usuário_plano_1{
+    display: flex;
+    color: #161616;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 12px;
+  }
+
+.check_funcionalidade_2{
+  display: flex;
   color: #161616;
-  font-size: 30px;
-  line-height: 1.4;
-  margin: 20px 0;
-  font-family: "Inter", sans-serif; 
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 0;
 }
 
-.destaque_valor_99 {
-  order: 2;
-  font-size: 50px;
-  color: #20DC49;
-  font-weight: bold; 
-  font-family: "Inter", sans-serif; 
-  font-style: normal;
-  font-weight: 700;
+  .icone_check_branco_verde_2{
+    display: flex; 
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .funcionalidade_2_redes_sociais_1{
+    display: flex;
+    color: #161616;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    padding-left: 12px;
+  }
+
+.check_funcionalidade_3{
+    display: flex;
+    color: #161616;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  
+    .icone_check_branco_verde_3{
+      display: flex; 
+      margin-right: 10px;
+      height: 30px;
+      width: 30px;
+    }
+  
+    .funcionalidade_3_mensagens_ilimitadas_1{
+      display: flex;
+      color: #161616;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding-left: 12px;
+      line-height: 33px;
+    }
+
+.check_funcionalidade_4{
+    display: flex;
+    color: #161616;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  
+    .icone_check_branco_verde_4{
+      display: flex; 
+      margin-right: 10px;
+      height: 30px;
+      width: 30px;
+    }
+  
+    .funcionalidade_4_suporte_1{
+      display: flex;
+      color: #161616;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding-left: 12px;
+    }
+
+.check_funcionalidade_5{
+      display: flex;
+      color: #161616;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+    
+    .icone_check_branco_verde_5{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .funcionalidade_5_integracoes_1{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+    }
+
+.Tabela__2__precos__texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: #242424; 
+      border-radius: 50px;
+      box-shadow: 10px 10px 10px 10px lightgray;
+      border-radius: 40px;
+      padding: 30px;
+      column-gap: 30px;
+    }
+    
+      .Plano__essencial__2 {
+        font-family: "coolvetica", sans-serif; 
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 2%;
+        font-size: 30px;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+      }
+    
+      .Plano__essencial__2__preco {
+        color: #ffffff;
+        font-size: 30px;
+        line-height: 1.4;
+        margin: 20px 0;
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+      }
+    
+      .destaque_valor_99 {
+        font-size: 50px;
+        color: #20DC49;
+        font-weight: bold; 
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+      }
+    
+      .destaque_valor_menor__90 {
+        font-size: 30px;
+        color: #20DC49;
+        font-weight: bold; 
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+      }
+    
+      .Plano__essencial__mensal__2 {
+        font-family: "coolvetica", sans-serif; 
+        color: #BBBBBB;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 2%;
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+    
+      .Plano__essencial__mensal__2__intro {
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+      }
+    
+      .Botao__Contratar__plano__2 {
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+        background-color: #20DC49;
+        color: #242424;
+        border-radius: 40px;
+        padding: 8px 12px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 30px;
+      }
+    
+    .check__funcionalidades__plano__essencial__2 {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column; 
+      padding: 20px 0px;
+    
+    }
+    
+    .check_funcionalidade_2 {
+      display: flex;
+      color: #ffffff;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+    
+      .icone_check_branco_verde_2{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+      }
+    
+      .funcionalidade_1_usuário_plano_2{
+        display: flex;
+        color: #ffffff;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+      }
+    
+    .check_funcionalidade_2{
+      display: flex;
+      color: #ffffff;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+    
+      .icone_check_branco_verde_2{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+      }
+    
+      .funcionalidade_2_redes_sociais_2{
+        display: flex;
+        color: #ffffff;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        padding-left: 12px;
+      }
+    
+    .check_funcionalidade_2{
+        display: flex;
+        color: #ffffff;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+      }
+      
+        .icone_check_branco_verde_2{
+          display: flex; 
+          margin-right: 10px;
+          height: 30px;
+          width: 30px;
+        }
+      
+        .funcionalidade_3_mensagens_ilimitadas_2{
+          display: flex;
+          color: #ffffff;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding-left: 12px;
+          line-height: 33px;
+        }
+    
+    .check_funcionalidade_2{
+        display: flex;
+        color: #ffffff;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+      }
+      
+        .icone_check_branco_verde_2{
+          display: flex; 
+          margin-right: 10px;
+          height: 30px;
+          width: 30px;
+        }
+      
+        .funcionalidade_4_suporte_2{
+          display: flex;
+          color: #ffffff;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding-left: 12px;
+        }
+    
+    .check_funcionalidade_5{
+          display: flex;
+          color: #ffffff;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding: 20px 0;
+        }
+        
+        .icone_check_branco_verde_5{
+            display: flex; 
+            margin-right: 10px;
+            height: 30px;
+            width: 30px;
+        }
+        
+        .funcionalidade_5_integracoes_2{
+            display: flex;
+            color: #ffffff;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 12px;
+        }
+
+.Tabela__3__precos__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff; 
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px 10px lightgray;
+  border-radius: 40px;
+  padding: 30px;
+  column-gap: 30px;
+}
+        
+    .Plano__avancado__3 {
+      font-family: "coolvetica", sans-serif; 
+      color: #161616;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 2%;
+      font-size: 30px;
+      margin-bottom: 10px;
+      justify-content: flex-start;
+    }
+        
+    .Plano__avancado__3__preco {
+      color: #161616;
+      font-size: 30px;
+      line-height: 1.4;
+      margin: 20px 0;
+      font-family: "Inter", sans-serif; 
+      font-style: normal;
+      font-weight: 700;
+    }
+        
+    .destaque_valor_99 {
+      font-size: 50px;
+      color: #20DC49;
+      font-weight: bold; 
+      font-family: "Inter", sans-serif; 
+      font-style: normal;
+      font-weight: 700;
+    }
+        
+    .destaque_valor_menor__90 {
+      font-size: 30px;
+      color: #20DC49;
+      font-weight: bold; 
+      font-family: "Inter", sans-serif; 
+      font-style: normal;
+      font-weight: 700;
+    }
+        
+    .Plano__avancado__mensal__3 {
+      font-family: "coolvetica", sans-serif; 
+      color: #BBBBBB;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 2%;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+        
+    .Plano__avancado__mensal__3__intro {
+      font-family: "Inter", sans-serif; 
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #161616;
+    }
+        
+    .Botao__Contratar__plano__3 {
+      font-family: "Inter", sans-serif; 
+      font-style: normal;
+      font-weight: 700;
+      background-color: #20DC49;
+      color: #242424;
+      border-radius: 40px;
+      padding: 8px 12px;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 30px;
+    }
+        
+    .check__funcionalidades__plano__avancado__3 {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column; 
+      padding: 20px 0px;
+    }
+        
+    .check_funcionalidade_3 {
+      display: flex;
+      color: #161616;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+        
+      .icone_check_branco_verde_3{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+      }
+      
+        .funcionalidade_1_usuário_plano_3{
+          display: flex;
+          color: #161616;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding-left: 12px;
+        }
+        
+        .check_funcionalidade_3{
+          display: flex;
+          color: #161616;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding: 20px 0;
+        }
+        
+        .icone_check_branco_verde_2{
+          display: flex; 
+          margin-right: 10px;
+          height: 30px;
+          width: 30px;
+        }
+        
+        .funcionalidade_2_redes_sociais_3{
+          display: flex;
+          color: #161616;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 33px;
+          padding-left: 12px;
+        }
+        
+        .check_funcionalidade_3{
+          display: flex;
+          color: #161616;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding: 20px 0;
+        }
+          
+        .icone_check_branco_verde_3{
+          display: flex; 
+          margin-right: 10px;
+          height: 30px;
+          width: 30px;
+        }
+          
+        .funcionalidade_3_mensagens_ilimitadas_3{
+          display: flex;
+          color: #161616;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding-left: 12px;
+          line-height: 33px;
+        }
+        
+        .check_funcionalidade_4{
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 20px 0;
+          }
+          
+        .icone_check_branco_verde_4{
+            display: flex; 
+            margin-right: 10px;
+            height: 30px;
+            width: 30px;
+        }
+          
+        .funcionalidade_4_suporte_3{
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 12px;
+        }
+        
+        .check_funcionalidade_5{
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 20px 0;
+        }
+            
+        .icone_check_branco_verde_5{
+            display: flex; 
+            margin-right: 10px;
+            height: 30px;
+            width: 30px;
+        }
+            
+        .funcionalidade_5_integracoes_3{
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 12px;
+        }
+
+        .Tabela__4__precos__texts {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          background-color: #ffffff; 
+          border-radius: 50px;
+          box-shadow: 10px 10px 10px 10px lightgray; 
+          border-radius: 40px;
+          padding: 30px;
+          column-gap: 30px;
+        }
+        
+          .Plano__pro__4 {
+            font-family: "coolvetica", sans-serif; 
+            color: #161616;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 2%;
+            font-size: 30px;
+            margin-bottom: 10px;
+            justify-content: flex-start;
+          }
+        
+          .Plano__pro__4__preco {
+            color: #161616;
+            font-size: 30px;
+            line-height: 1.4;
+            margin: 20px 0;
+            font-family: "Inter", sans-serif; 
+            font-style: normal;
+            font-weight: 700;
+          }
+        
+          .destaque_valor_499 {
+            font-size: 50px;
+            color: #20DC49;
+            font-weight: bold; 
+            font-family: "Inter", sans-serif; 
+            font-style: normal;
+            font-weight: 700;
+          }
+        
+          .destaque_valor_menor__90 {
+            font-size: 30px;
+            color: #20DC49;
+            font-weight: bold; 
+            font-family: "Inter", sans-serif; 
+            font-style: normal;
+            font-weight: 700;
+          }
+        
+          .Plano__pro__mensal__4 {
+            font-family: "coolvetica", sans-serif; 
+            color: #BBBBBB;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 2%;
+            font-size: 30px;
+            margin-bottom: 10px;
+          }
+        
+          .Plano__pro__mensal__4__intro {
+            font-family: "Inter", sans-serif; 
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #161616;
+          }
+        
+          .Botao__Contratar__plano__4 {
+            font-family: "Inter", sans-serif; 
+            font-style: normal;
+            font-weight: 700;
+            background-color: #20DC49;
+            color: #242424;
+            border-radius: 40px;
+            padding: 8px 12px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 30px;
+          }
+        
+        .check__funcionalidades__plano__pro__4 {
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column; 
+          padding: 20px 0px;
+        
+        }
+        
+        .check_funcionalidade_1 {
+          display: flex;
+          color: #161616;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding: 20px 0;
+        }
+        
+          .icone_check_branco_verde_1{
+            display: flex; 
+            margin-right: 10px;
+            height: 30px;
+            width: 30px;
+          }
+        
+          .funcionalidade_1_usuário_plano_4 {
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-left: 12px;
+          }
+        
+        .check_funcionalidade_2{
+          display: flex;
+          color: #161616;
+          font-family: "Inter", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          padding: 20px 0;
+        }
+        
+          .icone_check_branco_verde_2{
+            display: flex; 
+            margin-right: 10px;
+            height: 30px;
+            width: 30px;
+          }
+        
+          .funcionalidade_2_redes_sociais_4 {
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 33px;
+            padding-left: 12px;
+          }
+        
+        .check_funcionalidade_3{
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 20px 0;
+          }
+          
+            .icone_check_branco_verde_3{
+              display: flex; 
+              margin-right: 10px;
+              height: 30px;
+              width: 30px;
+            }
+          
+            .funcionalidade_3_mensagens_ilimitadas_4 {
+              display: flex;
+              color: #161616;
+              font-family: "Inter", sans-serif;
+              font-weight: 600;
+              font-size: 20px;
+              padding-left: 12px;
+              line-height: 33px;
+            }
+        
+        .check_funcionalidade_4{
+            display: flex;
+            color: #161616;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding: 20px 0;
+          }
+          
+            .icone_check_branco_verde_4{
+              display: flex; 
+              margin-right: 10px;
+              height: 30px;
+              width: 30px;
+            }
+          
+            .funcionalidade_4_suporte_4 {
+              display: flex;
+              color: #161616;
+              font-family: "Inter", sans-serif;
+              font-weight: 600;
+              font-size: 20px;
+              padding-left: 12px;
+            }
+        
+        .check_funcionalidade_5{
+              display: flex;
+              color: #161616;
+              font-family: "Inter", sans-serif;
+              font-weight: 600;
+              font-size: 20px;
+              padding: 20px 0;
+            }
+            
+            .icone_check_branco_verde_5{
+                display: flex; 
+                margin-right: 10px;
+                height: 30px;
+                width: 30px;
+            }
+            
+            .funcionalidade_5_integracoes_4{
+                display: flex;
+                color: #161616;
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                padding-left: 12px;
+            }
+
+.Tabela__5__precos__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff; 
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px lightgray; 
+    border-radius: 40px;
+    padding: 30px;
+    column-gap: 30px;
+}
+            
+    .Plano__plus__5 {
+        font-family: "coolvetica", sans-serif; 
+        color: #161616;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 2%;
+        font-size: 30px;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+            
+    .Plano__plus__5__preco {
+        color: #161616;
+        font-size: 30px;
+        line-height: 1.4;
+        margin: 20px 0;
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+    }
+            
+    .destaque_valor_599 {
+        font-size: 50px;
+        color: #20DC49;
+        font-weight: bold; 
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+    }
+            
+    .destaque_valor_menor__90 {
+        font-size: 30px;
+        color: #20DC49;
+        font-weight: bold; 
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+    }
+            
+    .Plano__plus__mensal__5 {
+        font-family: "coolvetica", sans-serif; 
+        color: #BBBBBB;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 2%;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+            
+    .Plano__plus__mensal__5__intro {
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #161616;
+    }
+            
+    .Botao__Contratar__plano__5 {
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+        background-color: #20DC49;
+        color: #242424;
+        border-radius: 40px;
+        padding: 8px 12px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 30px;
+    }
+            
+    .check__funcionalidades__plano__plus__5 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column; 
+        padding: 20px 0px;
+              
+      }
+            
+    .check_funcionalidade_1 {
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+      }
+            
+    .icone_check_branco_verde_1{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+      }
+            
+    .funcionalidade_1_usuário_plano_5{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+      }
+            
+    .check_funcionalidade_2{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+            
+    .icone_check_branco_verde_2{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+            
+    .funcionalidade_2_redes_sociais_5 {
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        padding-left: 12px;
+    }
+            
+    .check_funcionalidade_3{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+              
+    .icone_check_branco_verde_3{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+              
+    .funcionalidade_3_mensagens_ilimitadas_5 {
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+        line-height: 33px;
+    }
+            
+    .check_funcionalidade_4{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+              
+    .icone_check_branco_verde_4{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+              
+    .funcionalidade_4_suporte_5{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+    }
+            
+    .check_funcionalidade_5{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+                
+    .icone_check_branco_verde_5{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .funcionalidade_5_integracoes_5{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+    }
+
+  .Tabela__6__precos__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff; 
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px lightgray; 
+    border-radius: 40px;
+    padding: 30px;
+    column-gap: 30px;
+}
+            
+    .Plano__corporate__6 {
+        font-family: "coolvetica", sans-serif; 
+        color: #161616;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 2%;
+        font-size: 30px;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+            
+    .Plano__corporate__6__preco {
+        color: #161616;
+        font-size: 30px;
+        line-height: 1.4;
+        margin: 20px 0;
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+    }
+            
+    .destaque_valor_personalizado {
+        font-size: 40px;
+        color: #20DC49;
+        font-weight: bold; 
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+    }
+            
+    .Plano__corporate__mensal__6 {
+        font-family: "coolvetica", sans-serif; 
+        color: #BBBBBB;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 2%;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+            
+    .Plano__corporate__mensal__6__intro {
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #161616;
+    }
+            
+    .Botao__Contratar__plano__6 {
+        font-family: "Inter", sans-serif; 
+        font-style: normal;
+        font-weight: 700;
+        background-color: #20DC49;
+        color: #242424;
+        border-radius: 40px;
+        padding: 8px 12px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 30px;
+    }
+            
+    .check__funcionalidades__plano__corporate__6 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column; 
+        padding: 20px 0px;
+              
+      }
+            
+    .check_funcionalidade_1 {
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+      }
+            
+    .icone_check_branco_verde_1{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+      }
+            
+    .funcionalidade_1_usuário_plano_6{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+      }
+            
+    .check_funcionalidade_2{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+            
+    .icone_check_branco_verde_2{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+            
+    .funcionalidade_2_redes_sociais_6 {
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        padding-left: 12px;
+    }
+            
+    .check_funcionalidade_3{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+              
+    .icone_check_branco_verde_3{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+              
+    .funcionalidade_3_mensagens_ilimitadas_6 {
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+        line-height: 33px;
+    }
+            
+    .check_funcionalidade_4{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 0;
+    }
+              
+    .icone_check_branco_verde_4{
+        display: flex; 
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+              
+    .funcionalidade_4_suporte_6{
+        display: flex;
+        color: #161616;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        padding-left: 12px;
+    }
+            
+    .check_funcionalidade_5{
+      display: flex;
+      color: #161616;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+                
+    .icone_check_branco_verde_6{
+      display: flex; 
+      margin-right: 10px;
+      height: 30px;
+      width: 30px;
+    }
+
+    .funcionalidade_5_integracoes_6 {
+      display: flex;
+      color: #161616;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      padding-left: 12px;
+    }
+
+/* Seção Integrações */
+.Integracoes {
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.destaque_valor_menor__90 {
-  order: 2;
-  font-size: 30px;
-  color: #20DC49;
-  font-weight: bold; 
-  font-family: "Inter", sans-serif; 
-  font-style: normal;
-  font-weight: 700;
-}
-
-.Plano__basico__mensal__1 {
-  order: 3;
+.integracoes__titulo {
   font-family: "coolvetica", sans-serif; 
-  color: #BBBBBB;
   font-style: normal;
   font-weight: 500;
-  letter-spacing: 2%;
-  font-size: 30px;
+  font-size: 48px;
+  color: #20DC49;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
-.Plano__basico__mensal__1__intro {
-  order: 4;
-  font-family: "Inter", sans-serif; 
-  font-style: normal;
-  font-weight: 500;
+.integracoes__subtitulo {
   font-size: 16px;
   color: #161616;
-}
-
-.Botao__Contratar__plano__1 {
-  order: 5;
+  margin-bottom: 20px;
   font-family: "Inter", sans-serif; 
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+
+.Saiba_mais_sobre_integracoes {
+  color: #161616;
+  border-radius: 40px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.integracoes_apps{
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Seção de clientes 2 */
+
+.nossos__clientes__2 {
+  padding: 40px 10px;
+}
+
+.Nossos_clientes_2_titulo {
+  font-family: "coolvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #161616;
+  text-align: center;
+}
+
+.rectangle_2 {
+  width: 100%;
+  height: 700px;
+  background-color: #E3FDE8;
+  margin: 20px 0;
+}
+
+/* Seção de todos os clientes */
+
+.todos_os_clientes {
+  padding: 40px 10px;
+}
+
+.todos_os_clientes_titulo {
+  font-family: "coolvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #161616;
+  text-align: flex-start;
+}
+
+.rectangle_3 {
+  width: 100%;
+  height: 600px;
+  background-color: #161616;
+  margin: 20px 0;
+  border-radius: 40px;
+}
+
+.rectangles_todos_clientes {
+  width: 100%;
+  display: flex;
+  column-gap: 100px;
+  row-gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.rectangle_4 {
+  width: 46%;
+  height: 600px;
+  background-color: #161616;
+  margin: 20px 0;
+  border-radius: 40px;
+}
+
+.rectangle_5 {
+  width: 46%;
+  height: 600px;
+  background-color: #161616;
+  margin: 20px 0;
+  border-radius: 40px;
+}
+
+/* Seção de conteúdo final */
+.LP-Chatlabs__final {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;;
+  justify-content: center;
+}
+
+.LP-Chatlabs__conteudo__final__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.LP-Chatlabs__titulo__final {
+  font-family: "coolvetica", sans-serif; 
+  font-style: normal;
+  color: #161616;
+  font-weight: 500;
+  letter-spacing: 2%;
+  font-size: 60px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.veja__demonstração_final {
+  font-family: "Inter", sans-serif; 
+  font-style: normal;
+  font-weight: 600;
   background-color: #20DC49;
   color: #242424;
   border-radius: 40px;
@@ -417,32 +1790,89 @@ header {
   text-align: center;
   text-decoration: none;
   margin-top: 30px;
-  width: 24%;
+  text-decoration: none;
 }
 
-.check__funcionalidades__plano__basico__1 {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 10px;
-  background-color: #ffffff;
-  order: 6;
-  align-items: center;
-}
+/* Footer */
 
-.icone_check_branco_verde_1{
+.logo_chatlabs_footer {
+  width: 100%; 
   display: flex; 
-  margin-right: 10px;
-  height: 30px;
-  width: 30px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  padding: 0 100px;
 }
 
-.funcionalidade_1_usuário_plano_1{
-  display: flex;
-  color: #161616;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
+.logo_branco{
+  width: 100%;
+  width: 180px;
+  padding-top: 80px;
+  padding: 10px;
 }
+
+.footer__conteudo {
+  background-color: #20DC49; /* Cor de fundo do footer */
+  padding: 20px 0; /* Espaçamento interno do footer */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  height: 50%;
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+
+.anchor_footerconteudo_childrens {
+  display: flex;
+  width: 80%; /* Largura do container */
+  justify-content: space-between; /* Espaça igualmente os itens */
+  flex-wrap: wrap; /* Permite quebra de linha para itens que não cabem */
+  column-gap: 100px; 
+}
+
+.anchor_footerconteudo_childrens div {
+  flex: 1; /* Cada coluna ocupa o mesmo espaço */
+  margin: 0 20px; /* Espaçamento entre as colunas */
+}
+
+.nome_recursos_1, .nome_sobre_2, .nome_entre_em_contato_3, .nome_redes_sociais_4 {
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #161616;
+}
+
+.footer_recursos_link_1, .footer_sobre_link_2, .footer_redes_link_4 {
+  font-weight: 500;
+  text-decoration: none;
+  color: #161616;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.email_footer_3, .telefone_footer_3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.email-icone-footer_3, .telefone_icone_footer_3, .icone_instagram_footer_4 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.email_contato_chatlabs_3, .telefone_contato_chatlabs_3 {
+  font-weight: 500;
+  align-items: center;
+  font-size: 1em;
+  color: #161616;
+}
+
+.footer_redes_link_4 {
+  display: inline-block;
+}
+
+
 
 /* Media queries para telas maiores */
 @media (min-width: 768px) {
